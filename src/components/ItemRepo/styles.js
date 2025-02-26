@@ -6,14 +6,20 @@ export const ItemContainer = styled.div`
     h3{
         font-size: 32px;
         margin: 0;
+        text-transform: uppercase;
     }
     p{
         font-size: 16px;
         color: #fafafa;
         margin-bottom: 20px;
     }
+    a{
+        color:rgb(136, 134, 134);
+        text-decoration: none;
+    }
     a.remover{
-        color: #ff0000;
+        color:#b41afc;
+        cursor: pointer;
         
     }
     hr{
